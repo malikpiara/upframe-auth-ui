@@ -1,0 +1,70 @@
+<style media="screen">
+
+* {
+  text-decoration: none;
+}
+
+body {
+  background-color: #84909A;
+}
+
+#container {
+  margin: 10% auto;
+  padding-top: 18px;
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 334px; height: 540px;
+  display: block;
+}
+
+.mask {
+  background-color: #F0EFF2;
+  width: 0px; height: 0px;
+  display: block;
+  border-radius: 50%;
+  margin: 49px auto;
+  overflow: hidden;
+  background: url(fab-upframe.png) center;
+    background-size: 120px;
+    background-position-x: 2px;
+  padding: 60px;
+}
+
+.button {
+  background-color: #2555d3; color: white;
+  font-family: roboto;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  width: 205px;
+  margin: 0 auto;
+  border-radius: 5px;
+  transition: background-color .9s;
+}
+
+.button a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button:hover {
+  background-color: #030e2b;
+}
+
+.line {
+  background-color: #F0EFF2;
+  height: 2px;
+  margin: 45px;
+}
+
+.forgot {
+  padding: 100px;
+  font-family: "times";
+  color: #84909A;
+  font-style: italic;
+}
+
+.forgot a {
+  color: inherit;
+}
+</style>
