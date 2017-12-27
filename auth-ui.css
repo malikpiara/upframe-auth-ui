@@ -42,16 +42,18 @@ form {
 
 input[type="button"] {
   display: grid;
+  cursor:pointer;
   margin: 24px auto;
-  background-color: #2555d3; color: white;
+  background-color: #2555d3;
+  color: white;
   font-family: roboto;
   font-weight: bold;
   font-size: 14px;
   letter-spacing: 1.4px;
   text-transform: uppercase;
   padding: 20px;
-  width: 205px;
-  border: 0px;
+  width: 225px;
+  border: 0;
   border-radius: 5px;
   transition: background-color .9s;
 }
@@ -78,7 +80,7 @@ input[type="button"]:hover {
   border: none;
   border-bottom: 2.5px solid #F0EFF2;
   font-size: 15px;
-  color: #80806f;
+  color: #908F82;
 }
 
 .alternative-link {
